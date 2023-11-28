@@ -67,9 +67,9 @@ class CISQueueTest {
         cisQueue.enqueue(7);
         assertEquals("CISQueue{queue=[7], size=1}", cisQueue.toString());
         cisQueue.enqueue(11);
-        assertEquals("CISQueue{queue=[7, 11], size=2}", cisQueue.toString());
+        assertEquals("CISQueue{queue=[11, 7], size=2}", cisQueue.toString());
         cisQueue.enqueue(23);
-        assertEquals("CISQueue{queue=[7, 11, 23], size=3}", cisQueue.toString());
+        assertEquals("CISQueue{queue=[23, 11, 7], size=3}", cisQueue.toString());
 
     }
 
